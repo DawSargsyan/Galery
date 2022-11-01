@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(90deg , rgb(8, 93, 168), rgb(70, 145, 8));
+    padding: 0;
+    margin: 0;
+}
+.container {
+    height: 1px;
+}
+ul {
+    background: rgba(0,0,0, 0.9);
+}
+ul li {
+    list-style: none;
+    padding: 12px;
+    cursor: pointer;
+    filter: brightness(0.5);
+    display: inline-block;
+    transition: all .4s ease-in-out;
+}
+ul li:hover {
+    filter: brightness(1);    
+}
+li img {
+    border-radius: 30px;
+    width: 275px;
+    
+}
+#mainImg {
+    width: 820px;
+}
+#btnShrink:hover {
+    filter: brightness(1);
+    transition: all .4s ease-in-out;
+}
+#btnEnlarge:hover {
+    filter: brightness(1);
+    transition: all .4s ease-in-out;
+}
+#imgEffect:hover {
+    filter: brightness(1);
+    transition: all .4s ease-in-out;
+}
+#imgDuration:hover {
+    filter: brightness(1);
+    transition: all .4s ease-in-out;
+}
+#btnShrink {
+    z-index: 2;
+    position: absolute;
+    left: 95px;
+    top: 110px;
+    border: none;
+    filter: brightness(0.5);
+    background:rgb(70, 145, 8);
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#btnEnlarge {
+    z-index: 2;
+    position: absolute;
+    left: 95px;
+    top: 60px;
+    filter: brightness(0.5);
+    border: none;
+    background:rgb(70, 145, 8);
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#imgEffect {
+    position: absolute;
+    left: 95px;
+    top: 160px;
+    width: 60px;
+    filter: brightness(0.5);
+    border: none;
+    height: 40px;
+    background:rgb(70, 145, 8);
+    border-radius: 15px;
+    z-index: 2;
+    cursor: pointer;
+}
+#imgDuration {
+    z-index: 2;
+    position: absolute;
+    left: 95px;
+    top: 210px; 
+    filter: brightness(0.5);
+    border: none;
+    width: 60px;
+    height: 40px;
+    background:rgb(70, 145, 8);
+    border-radius: 15px;
+    cursor: pointer;
+}
